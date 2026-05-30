@@ -1,0 +1,19 @@
+
+> foodiego@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 552ms
+
+○ Compiling / ...
+ GET / 200 in 4.1s (next.js: 3.6s, application-code: 468ms)
+ GET / 200 in 246ms (next.js: 7ms, application-code: 239ms)
+ GET /restaurant/1 200 in 1987ms (next.js: 1730ms, application-code: 257ms)
+ GET /checkout 200 in 933ms (next.js: 642ms, application-code: 291ms)
+ GET /dashboard 200 in 1024ms (next.js: 893ms, application-code: 130ms)
+ GET /login 200 in 659ms (next.js: 558ms, application-code: 101ms)
+ GET /signup 200 in 867ms (next.js: 686ms, application-code: 181ms)
+✓ Compiled in 74ms
+✓ Compiled in 123ms
