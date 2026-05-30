@@ -3,11 +3,11 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function DELETE(
   req: NextRequest,
-  context: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
 
-    const id = context.params.id;
+    const { id } = await params;
 
     await prisma.orderItem.deleteMany({
       where: {
